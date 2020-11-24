@@ -1,4 +1,4 @@
-from random import randint
+import random
 
 
 class Armor:
@@ -11,7 +11,7 @@ class Armor:
         self.max_block = max_block
 
     def block(self):
-        blockedDamage = randint(0, self.max_block)
+        blockedDamage = random.randint(0, self.max_block)
         return blockedDamage
 
 

@@ -1,4 +1,4 @@
-from random import randint
+import random
 
 
 class Ability:
@@ -10,8 +10,8 @@ class Ability:
         """ Return a value between 0 and the value set by self.max_damage"""
 
         # Pick a random value between 0 and self.max_damage
-        random_value = randint(0, self.max_damage)
-        return random_value
+        attackDamage = random.randint(0, self.max_damage)
+        return attackDamage
 
 
 if __name__ == "__main__":
