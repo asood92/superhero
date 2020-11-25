@@ -8,7 +8,7 @@ class Armor:
         max_block: Integer
         """
         self.name = name
-        self.max_block = max_block
+        self.max_block = int(max_block)
 
     def block(self):
         blockedDamage = random.randint(0, self.max_block)

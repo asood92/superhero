@@ -62,7 +62,7 @@ class Arena:
 
             elif add_item == "3":
                 newArmor = self.create_armor()
-                hero.add_ability(newArmor)
+                hero.add_armor(newArmor)
         return hero
 
     def build_team_one(self):

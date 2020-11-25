@@ -72,7 +72,7 @@ class Hero:
         """
         total_damage = 0
         for ability in self.abilities:
-            total_damage += str(ability.attack())
+            total_damage += ability.attack()
 
         return total_damage
 
